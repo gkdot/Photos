@@ -8,6 +8,9 @@ import {
   makeUrlAbsolute,
   shortenUrl,
 } from '@/utility/url';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.local' });
 
 // HARD-CODED GLOBAL CONFIGURATION
 
