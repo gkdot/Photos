@@ -44,27 +44,10 @@ export const metadata: Metadata = {
     description: META_DESCRIPTION,
   },
   icons: [{
-    url: '/favicon.ico',
+    url: '/favicons/camera-comic-icon.png',
     rel: 'icon',
     type: 'image/png',
-    sizes: '180x180',
-  }, {
-    url: '/favicons/light.png',
-    rel: 'icon',
-    media: '(prefers-color-scheme: light)',
-    type: 'image/png',
-    sizes: '32x32',
-  }, {
-    url: '/favicons/dark.png',
-    rel: 'icon',
-    media: '(prefers-color-scheme: dark)',
-    type: 'image/png',
-    sizes: '32x32',
-  }, {
-    url: '/favicons/apple-touch-icon.png',
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '180x180',
+    sizes: '96x96',
   }],
   ...SITE_FEEDS_ENABLED && {
     alternates: {

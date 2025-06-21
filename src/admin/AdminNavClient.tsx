@@ -106,8 +106,8 @@ export default function AdminNavClient({
           </div>
           {shouldShowBanner &&
             <Note icon={<FaRegClock className="shrink-0" />}>
-              Photo updates detected—they may take several minutes to show up
-              for visitors
+              Photo updates detected — they may take several minutes to show up
+              for visitors.
             </Note>}
           {isPathAdminInfo(pathname) &&
             <AdminInfoNav {...{ includeInsights }} />}
